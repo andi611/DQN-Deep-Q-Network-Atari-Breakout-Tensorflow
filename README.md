@@ -12,17 +12,17 @@
 
 ## Implementation
 * Deep Q Learning Network with the following improvements:
-	- Experience Replay
-	- Fixed Target Q-Network
-	- TD error loss function with: *Q<sub>target</sub> = reward + (1-terminal) * (gamma * Q<sub>max</sub>(s’) )*
-* DQN network Settings:
+	- **Experience Replay**
+	- **Fixed Target Q-Network**
+	- **TD error loss function** with: *Q<sub>target</sub> = reward + (1-terminal) * (gamma * Q<sub>max</sub>(s’) )*
+* DQN network Settings (in agent_dqn.py):
 ![](https://github.com/andi611/Reinforcement-Learning-DQN-Deep-Q-Learning-Atari-Breakout/blob/master/model/dqn_best_setting.png)
 
 ## File Description
 ```
 .
 ├── ./
-|   ├── agent_dir.py ─────────── DQN model
+|   ├── agent_dqn.py ─────────── DQN model
 |   ├── atari_wrapper.py ─────── Atari wrapper
 |   ├── environment.py ───────── Gym wrapper
 |   ├── runner.py ────────────── Main program for training and testing
