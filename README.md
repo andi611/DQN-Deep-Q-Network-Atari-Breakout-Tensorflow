@@ -15,17 +15,17 @@
 	- Fixed Target Q-Network
 	- TD error loss function with: *Q<sub>target</sub> = reward + (1-terminal) * (gamma * Q<sub>max</sub>(s’) )*
 * DQN network Settings:
-![]()
+![](https://github.com/andi611/Reinforcement-Learning-DQN-Deep-Q-Learning-Atari-Breakout/blob/master/model/dqn_best_setting.png)
 
 ## File Description
 ```
 .
 ├── ./
-|   ├── agent_dir.py 							DQN model
-|   ├── atari_wrapper.py						Atari wrapper
-|   ├── environment.py							Gym wrapper
-|   ├── runner.py								Main program for training and testing
-|   └── Readme.md								This file
+|   ├── agent_dir.py 			DQN model
+|   ├── atari_wrapper.py 		Atari wrapper
+|   ├── environment.py 			Gym wrapper
+|   ├── runner.py 				Main program for training and testing
+|   └── Readme.md 				This file
 └── model/
 	├── dqn_learning_curve_compare.png			Figure 1  
 	├── dqn_best_setting.png     				Figure 2
@@ -43,5 +43,6 @@
 
 ## Learning Curve
 * Single learning curve:
-![]()
+![](https://github.com/andi611/Reinforcement-Learning-DQN-Deep-Q-Learning-Atari-Breakout/blob/master/model/dqn_learning_curve.png)
 * With different plotting window:
+![](https://github.com/andi611/Reinforcement-Learning-DQN-Deep-Q-Learning-Atari-Breakout/blob/master/model/dqn_learning_curve_compare.png)
