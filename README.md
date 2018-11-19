@@ -1,5 +1,4 @@
-# Reinforcement Learning: 
-## Deeq Q Learning Network (DQN) Agent playing Atari Breakout
+# Reinforcement Learning: Deeq Q Learning Network (DQN) Agent playing Atari Breakout
 * Training a vision-based agent with the Deep Q Learning Network (DQN) in Atari's Breakout environment, implementation in Tensorflow.
 <img src="https://github.com/andi611/Reinforcement-Learning-DQN-Deep-Q-Learning-Atari-Breakout/blob/master/model/gameplay.gif" width="329" height="478">
 
