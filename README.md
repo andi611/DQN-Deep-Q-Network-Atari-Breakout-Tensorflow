@@ -4,7 +4,7 @@
 ## Environment
 * **< Python 3.7 >**
 * **< [OpenAI Gym](https://github.com/openai/gym) >**
-	- Type the following commands to install OpenAI Gym Atari environment: </r>
+	- Install the OpenAI Gym Atari environment:
 	`$ pip3 install opencv-python gym "gym[atari]"`
 	- Atari environment used: `BreakoutNoFrameskip-v4`
 * **< [Tensorflow r.1.12.0](https://www.tensorflow.org/) >**
@@ -21,19 +21,19 @@
 ```
 .
 ├── ./
-|   ├── agent_dir.py 			DQN model
-|   ├── atari_wrapper.py 		Atari wrapper
-|   ├── environment.py 			Gym wrapper
-|   ├── runner.py 				Main program for training and testing
-|   └── Readme.md 				This file
+|   ├── agent_dir.py ─────────── DQN model
+|   ├── atari_wrapper.py ─────── Atari wrapper
+|   ├── environment.py ───────── Gym wrapper
+|   ├── runner.py ────────────── Main program for training and testing
+|   └── Readme.md ────────────── This file
 └── model/
-	├── dqn_learning_curve_compare.png			Figure 1  
-	├── dqn_best_setting.png     				Figure 2
-	├── dqn_learning_curve.png       			Figure 3
-	├── checkpoint								Tensorflow model check point
-	├── model_dqn-25581.data-00000-of-00001		Tensorflow model data
-	├── model_dqn-25581.meta 					Tensorflow model meta
-	└── model_dqn-25581.index 					Tensorflow model index
+	├── dqn_learning_curve_compare.png ──────── Figure 1  
+	├── dqn_best_setting.png ────────────────── Figure 2
+	├── dqn_learning_curve.png ──────────────── Figure 3
+	├── checkpoint ──────────────────────────── Tensorflow model check point
+	├── model_dqn-25581.data-00000-of-00001 ─── Tensorflow model data
+	├── model_dqn-25581.meta ────────────────── Tensorflow model meta
+	└── model_dqn-25581.index ───────────────── Tensorflow model index
 ```
 
 ## Usage
